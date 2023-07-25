@@ -1,0 +1,22 @@
+// Common files
+@use "./config/nullstyle";
+@use "./config/fonts";
+@use "./config/mixins";
+@use "./config/variables";
+@use "./config/settings";
+
+
+// Header Block ----------------------------------
+@use "./utils/header.scss";
+// -----------------------------------------------
+
+
+// Main Block------------------------------------
+// @use "./utils/someblock.scss";
+// Main Block------------------------------------
+
+
+
+// Footer Block----------------------------------
+@use "./utils/footer.scss";
+// -----------------------------------------------

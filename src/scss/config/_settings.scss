@@ -1,0 +1,32 @@
+@import './variables';
+
+body {
+    font-family: "Lexend";
+}
+
+.main {
+    height: 100%;
+    padding: 90px 0px 60px 0px;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background:#000;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+    -webkit-box-shadow: #000; 
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background:#000;
+    -webkit-box-shadow: #000; 
+} 
